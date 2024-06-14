@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charser="UTF-8">
+    <title>survey Form</title>
+    <link rel="stylesheet" href="styles.css"
+  </head>
+  <body>
+    <h1 id="title">Feedback form</h1>
+    <p id="description">We value your feedback.Please fill out this brief survey.
+    <form method="post" action="https://register-demo.freecodecamp.org" id="survey-form">
+    <fieldset>
+      <label for="name" id="name-label">Name <input id="name" name="name" type="text" placeholder="Enter your name"required /></label><br>
+      <label for="email" id="email-label">Email <input id="email" name="email" type="email" placeholder="Enter your email"required /></label><br>
+      <label for="year" id="number-label">Year <input id="number" name="year" type="number" pattern="[1-4]{1,}" min="1" max="4" placeholder="Enter your year of study" required /></label><br>
+      <label for="department">Department<select id="dropdown" name="department">
+        <option value="">(select one)</option>
+        <option value="1">CS</option>
+        <option value="2">EC</option>
+        <option value="3">EEE</option></select>
+      <div class="question">
+      <br><label for="rating">How would you rate the overall experience?</label>
+      <div class="options">
+        <label><input type="radio" name="rating" value="excellent" required>Excellent</label><br>
+        <label><input type="radio" name="rating" value="good" required>Good</label><br>
+        <label><input type="radio" name="rating" value="average"required>Average</label><br>
+        <label><input type="radio" name="rating" value="poor" required>Poor</label><br><br>
+        <div class="question">
+          <label for="completion">Task Completion Status:</label> <br>
+          <div class="options">
+            <label><input type="checkbox" name="completion" value="task1-completed">Task 1 Completed</label>
+            <label><input type="checkbox" name="completion" value="task2-completed">Task 2 Completed</label><br>
+        <label for="suggestions">Suggestions and Improvements:<textarea id="suggestions" name="suggestions"></textarea></label><br>
+        
+        <br>
+        
+        <button id="submit">submit</button>
+       </fieldset>
+    </form>
