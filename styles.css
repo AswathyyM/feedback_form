@@ -1,0 +1,93 @@
+body, h1,p,form, fieldset, label, input, select, textarea, button, div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-image:url("https://i.pinimg.com/736x/af/67/e9/af67e9eaccced5a773545d955b614f05.jpg");
+  margin-top:20px;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+form {
+  background-image:url("https://papers.co/wallpaper/papers.co-sl98-pastel-blue-blur-gradation-23-wallpaper.jpg");
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
+  margin:20px auto;
+  padding-right:60px;
+  padding: 20px;
+  width: 300px;
+  height:750px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 1px;
+}
+
+label {
+  display: block;
+  margin-bottom: 1px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow:0 0 10px rgba(0,255,255,0.4)
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: -3px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 10px;
+  margin-top: 1px;
+  margin-bottom:1px;
+}
+
+.question {
+  margin-bottom: 1px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background-color: #45a049;
+}
